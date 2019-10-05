@@ -1,0 +1,16 @@
+#端口
+server:
+  port: 8081
+#数据源
+spring:
+  application:
+    name: user-service  #服务id
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springcloud
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+
+      
